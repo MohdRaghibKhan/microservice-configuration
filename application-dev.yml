@@ -6,6 +6,8 @@ spring:
     active: default
   application:
     name: CONFIG-DEV
+  profiles:
+    active: dev
   client:
     fetch-registry: true
     register-with-eureka: true
