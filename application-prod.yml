@@ -4,8 +4,6 @@ eureka:
 spring:
   application:
     name: CONFIG-PROD
-  profiles:
-    active: prod
   client:
     fetch-registry: true
     register-with-eureka: true
